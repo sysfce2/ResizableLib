@@ -211,6 +211,7 @@ void CDemoDlg::SetThemeProperties(DWORD dwFlags)
 	EnumChildWindows(m_hWnd, SendThemeChangedProc, 0);
 	InvalidateRect(NULL);
 	UpdateWindow();
+	UpdateMaxSize();
 }
 
 void CDemoDlg::OnRadio3()
