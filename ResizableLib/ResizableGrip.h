@@ -57,6 +57,7 @@ private:
 
 	protected:
 		virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
+		void CreateTransparencyBitmaps();
 
 		BOOL m_bTriangular;		// triangular shape active
 		BOOL m_bTransparent;	// transparency active
